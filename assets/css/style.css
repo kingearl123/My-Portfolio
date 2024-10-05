@@ -346,7 +346,7 @@ footer {
 
 @media screen and (max-width: 576px) {
     header {
-        padding: 25px 2rem;
+        padding: 25px 0.5rem;
     }
     .nav-list {
         display: none;
