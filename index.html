@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1><a href="">Ngurah Batin</a></h1>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home" class="link">Home</a></li>
+                <li><a href="#about" class="link">About me</a></li>
+                <li><a href="#portfolio" class="link">Portfolio</a></li>
+            </ul>
+            <a href="#contact" class="button-contact">Contact Me</a>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+
+    </header>
+    <section class="home" id="home">
+        <div class="home-content container">
+            <div class="home-text">
+                <h4>Welcome to My Portfolio</h4>
+                <h1>I'm Ngurah Batin <br> <span class="primary-text">Front End Developer</span></h1>
+                <p class="home-paragraph">I specialize in creating engaging user experiences and visually appealing interfaces. Let's bring your ideas to life!</p>
+                <br>
+                <a class="button" href="./assets/cv/Resume.pdf">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="./assets/img/Frame 102.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content container">
+            <div class="about-img">
+                <img src="./assets/img/Frame 102.png" alt="">
+            </div>
+            <div class="about-text">
+                <h4>About Me</h4>
+                <br>
+                <h1>Meet Ngurah Batin</h1>
+                <p>I'm passionate about crafting user-friendly websites and applications that leave a lasting impression. With a keen eye for detail and a love for clean code, I strive to create seamless digital experiences that exceed expectations.</p>
+                <br>
+                <p>My journey in front end development began with a curiosity for technology and a desire to create. Over the years, I've honed my skills in HTML, CSS, and JavaScript, and I continue to stay updated with the latest trends and best practices
+                    in web development. Collaboration is at the heart of my process. I enjoy working closely with designers, developers, and stakeholders to bring ideas to life and deliver outstanding results.</p>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-content container">
+            <h4>Recent Project</h4>
+            <br>
+            <h1>My Portfolio</h1>
+            <br>
+            <div class="box-portfolio">
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/img/image-1.png" alt="">
+                    </div>
+                    <div class="box-text">
+                        <h3>Laundry Management System</h3>
+                        <p>The Laundry Management System website is designed to manage laundry services and was developed using PHP and MySQL.</p>
+                        <br>
+                        <a class="button" href="https://github.com/kingearl123/Laundry-db">See Details</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/img/image-2.png" alt="">
+                    </div>
+                    <div class="box-text">
+                        <h3>Weather App</h3>
+                        <p>The Weather App is designed to check weather conditions in various locations and was developed using ReactJS.</p>
+                        <br>
+                        <a class="button" href="https://github.com/kingearl123/weather-app">See Details</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box-img">
+                        <img src="assets/img/img-3.png" alt="">
+                    </div>
+                    <div class="box-text">
+                        <h3>Mini Online Shop</h3>
+                        <p>The Mini Online Shop is a simple online store developed using MongoDB, ExpressJS, ReactJS, and NodeJS.</p>
+                        <br>
+                        <a class="button" href="https://github.com/kingearl123/online-shop-mini-client">See Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-content container">
+            <h4>Get In Touch</h4>
+            <br>
+            <h1>Contact Me</h1>
+            <br>
+            <br>
+        </div>
+        <div class="contact-form">
+            <form action="https://formspree.io/f/xblrjpdd" method="POST">
+                <div class="form-group">
+                    <label for="">Name</label>
+                    <input type="text" name="name" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Phone Number</label>
+                    <input type="text" name="phone" id="" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="">Message</label>
+                    <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <button class="button-form" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="logo">
+            <h1><a href="">Ngurah Batin</a></h1>
+        </div>
+        <ul class="footer-list">
+            <li><a href="#home" class="link">Home</a></li>
+            <li><a href="#about" class="link">About me</a></li>
+            <li><a href="#portfolio" class="link">Portfolio</a></li>
+            <li><a href="#contact" class="link">Contact</a></li>
+        </ul>
+        <div class="social-media">
+            <a href="https://www.instagram.com/ngurah_batin/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/kingearl123"><i class='bx bxl-github'></i></a>
+            <a href="https://id.linkedin.com/in/anak-agung-ngurah-batin-suteja-406995281"><i class='bx bxl-linkedin'></i></a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            var navList = document.querySelector('.nav-list');
+            navList.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
