@@ -260,7 +260,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     header {
-        padding: 25px 1.5rem;
+        padding: 25px 1rem;
     }
     .nav-list {
         display: none;
@@ -301,6 +301,9 @@ footer {
     }
     .home-img img {
         max-width: 100%;
+    }
+    .about-img {
+        display: none;
     }
     .home-content,
     .about-content,
@@ -346,7 +349,7 @@ footer {
 
 @media screen and (max-width: 576px) {
     header {
-        padding: 25px 0.5rem;
+        padding: 25px 0.3rem;
     }
     .nav-list {
         display: none;
