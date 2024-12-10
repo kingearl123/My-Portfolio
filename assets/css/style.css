@@ -219,6 +219,7 @@ nav {
     border: 1px solid #5E3BEE;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-top: 5px;
 }
 
 .button-form {
@@ -260,7 +261,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     header {
-        padding: 25px 1rem;
+        padding: 30px 1.5rem;
     }
     .nav-list {
         display: none;
